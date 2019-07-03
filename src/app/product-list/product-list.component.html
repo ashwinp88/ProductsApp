@@ -1,0 +1,6 @@
+<div>
+    <h1>Available Products</h1>
+    <div class="py-1" *ngFor="let product of this.products">
+        <app-product-list-item [product]='product'></app-product-list-item>
+    </div>
+</div>
